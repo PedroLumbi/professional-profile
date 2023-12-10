@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import Skills from './components/jsx/Skills.jsx';
+import Information from './components/jsx/Information.jsx';
+import ProjectCatalog from './components/jsx/ProjectCatalog';
+import Education from './components/jsx/Education.jsx';
+import Experience from './components/jsx/Experience.jsx';
+import Contact from './components/jsx/Contact.jsx';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1 className='title-profile'>Pedro Pablo Lumbí Alvarez</h1>
       </header>
+      
+      <Information />
+
+      <Skills />
+
+      <ProjectCatalog />
+
+      <Experience />
+
+      <Education />
+      
+      <Contact />
     </div>
   );
 }
