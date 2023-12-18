@@ -1,5 +1,5 @@
 * {
-  margin: 10px;
+  margin: 5px;
   padding: auto;
 }
 
@@ -9,7 +9,10 @@ html, body{
   background-color: rgb(31, 31, 31);
 }
 
-.title-profile{
-  text-align: center;
-  color: white;
+section{
+  display: block;
+}
+
+.App{
+  margin: 0;
 }

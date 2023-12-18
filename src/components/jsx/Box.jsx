@@ -1,14 +1,18 @@
 import Card from 'react-bootstrap/Card';
 
-const Box = ({ imageSrc, description }) => {
+import '../css/Box.css';
+
+const Box = ({ imageSrc, title, description, year }) => {
   return (
-    <Card style={{ width: '100%', marginTop: '0px' }}>
-      <Card.Body className="d-flex">
-        <div style={{ flex: '0 0 50%', paddingRight: '15px' }}>
-          <Card.Img variant="top" src={imageSrc} />
+    <Card className='box'>
+      <Card.Body className="box-body">
+        <div className='gallery'>
+          <Card.Img src={imageSrc} />
         </div>
-        <div style={{ flex: '0 0 50%' }}>
-          <Card.Text>{description}</Card.Text>
+        <div className='description'>
+          <Card.Text className='box-title'>{title}</Card.Text>
+          <Card.Text className='box-description'>{description}</Card.Text>
+          <Card.Text className='box-year'>{year}</Card.Text>
         </div>
       </Card.Body>
     </Card>

@@ -1,19 +1,20 @@
 import '../css/Information.css';
+import profile from '../images/profile.jpeg';
 
 function Information() {
   return (
-    <section class="information">
-      <div class="container mt-5">
-        <div class="row align-items-start">
-          <div class="col">
-            <p class="text-justify">Soy un desarrollador de software web con experiencia en diversos proyectos emocionantes.</p>
-          </div>
-          <div class="col text-center">
-            Imagen
-          </div>
-        </div>
+    <div className='container-Information'>
+      <div className='item'>
+        <img src={profile} alt="profile" className="img rounded" />
       </div>
-    </section>
+      <div className='item'>
+        <h1 className='inf-profile'>Pedro Pablo Lumbí Alvarez</h1>
+        <h2 className='inf-profile'>Software developer</h2>
+        <label className='inf-profile'>Collaborative, Good teamwork, Problem Solving</label>
+        <label className='inf-profile'>Agile methodology: SCRUM, Trello, Jira</label>
+        <label className='inf-profile'>Basic English</label>
+      </div>
+    </div>
   );
 }
 

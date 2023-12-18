@@ -1,0 +1,25 @@
+.container-Information{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  max-width: 100%;
+  margin: 10px;
+}
+
+.img {
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+  margin: 0;
+}
+
+.inf-profile{
+  display: block;
+  max-width: 100%;
+  text-align: start;
+  color: white;
+  margin-top: 10px;
+  border-bottom: 2px solid white;
+}
