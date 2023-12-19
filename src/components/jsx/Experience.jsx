@@ -6,7 +6,10 @@ const Experience = () => {
     {
       imageSrc: images.img_ucr,
       title: 'Universidad de Costa Rica',
-      description: 'Bachiller, Informática Empresarial',
+      description:
+      'Internal system for the management of community work hours and information,' +
+      'I collaborated with improvements to the design and style of the website, some user role functionalities and '+
+      'some changes to the internal structure of the system to facilitate its manipulation',
       year: '2022'
     },
   ];
