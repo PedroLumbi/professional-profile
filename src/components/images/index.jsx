@@ -6,6 +6,7 @@ import img_php from './PHP-logo.png';
 import img_c from './C#-logo.png';
 import img_ruby from './ruby-logo.png';
 
+import img_labRicardoRoldan from './Lab Ricardo Roldan.png';
 import img_colegio from './colegio.jpg';
 import img_ucr from './UCR.png';
 
@@ -17,6 +18,8 @@ const images = {
   img_php,
   img_c,
   img_ruby,
+
+  img_labRicardoRoldan,
   img_colegio,
   img_ucr,
 };

@@ -5,14 +5,14 @@ const Education = () => {
   const boxes = [
     {
       imageSrc: images.img_colegio,
-      title: 'Colegio Técnico Profesional de Fortuna de Bagaces',
-      description: 'Técnico medio, Informática en Soporte',
+      title: 'Technical Professional High School of Fortuna de Bagaces',
+      description: 'Medium Technician, IT Support',
       year: '2017'
     },
     {
       imageSrc: images.img_ucr,
-      title: 'Universidad de Costa Rica',
-      description: 'Bachiller, Informática Empresarial',
+      title: 'University of Costa Rica',
+      description: 'Bachelor´s degree in Business Informatics',
       year: '2023'
     },
   ];

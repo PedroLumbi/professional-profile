@@ -1,11 +1,22 @@
 import '../css/Projects.css';
-import images from '../images';
 import ProjectCatalog from '../images_ProjectCatalog';
 
 const Projects = () => {
   const projects = [
-    { title: 'Proyecto 1', id: 'Proyecto1', imageSrc1: ProjectCatalog.syslab1, imageSrc2: ProjectCatalog.syslab1, imageSrc3: ProjectCatalog.syslab1 },
-    { title: 'Proyecto 2', id: 'Proyecto2', imageSrc1: images.img_php, imageSrc2: images.img_php, imageSrc3: images.img_php }
+    {
+      title: 'System - Lab', id: 'syslab',
+      imageSrc: ProjectCatalog.syslab,
+      imageSrc1: ProjectCatalog.syslab1,
+      imageSrc2: ProjectCatalog.syslab2,
+      imageSrc3: ProjectCatalog.syslab3
+    },
+    {
+      title: 'TCU-UCR', id: 'tcuucr',
+      imageSrc: ProjectCatalog.tcu,
+      imageSrc1: ProjectCatalog.tcu,
+      imageSrc2: ProjectCatalog.tcu,
+      imageSrc3: ProjectCatalog.tcu
+    }
   ];
 
   return (
@@ -63,8 +74,8 @@ const Projects = () => {
             <div>
               {/* Open the Modal */}
               <div className="project-gallery btn btn-dark">
-                <div target="_blank" href={project.imageSrc1} data-bs-toggle="modal" data-bs-target={"#" + project.id + 'modal'}>
-                  <img src={project.imageSrc1} alt={project.title} className="project-image"></img>
+                <div target="_blank" href={project.imageSrc} data-bs-toggle="modal" data-bs-target={"#" + project.id + 'modal'}>
+                  <img src={project.imageSrc} alt={project.title} className="project-image"></img>
                 </div>
               </div>
               <h4 className="text-center">{project.title}</h4>
